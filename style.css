@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/PXs9mBcAPkYlTGlU_YYVKgljM_k=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19507455/main_img_paintbrushes.jpg");
+}
+
+
+#header{
+    font-size: larger;
+    color:chocolate;
+    background-color:cornflowerblue;
+    border-top-color: crimson;
+    border-bottom-color: dodgerblue;
+    border-right-color: gold;
+    border-left-color: hotpink;
+}
+
+
+#sketchShow{
+    float:right;
+}
+
+
+canvas{
+    border-radius: 700px;
+    border: 10px aquamarine solid;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    margin-top:150px;
+}
+
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px limegreen;}
+    to{box-shadow: 1px 1px 38px #EA781C;}
+}
+
+
+.ptag{
+   padding-top:15px;
+   font-size:28px; 
+   font-family: 'Henny Penny', cursive;
+}
